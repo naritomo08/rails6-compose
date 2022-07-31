@@ -81,3 +81,16 @@ http://127.0.0.1:8081
 http://127.0.0.1:8025
 ```
 
+## 初回のコンテナ立ち上げ方
+
+```
+関連コンテナはあらかじめ削除しておくこと。
+git clone -b devlop git@github.com:naritomo08/rails6-compose.git
+cd rails6-compose
+./setup.sh
+docker-compose up -d
+appsフォルダに移動し、rubyの構築などを実施すること。
+```
+
+
+
